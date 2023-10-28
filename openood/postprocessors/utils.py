@@ -29,7 +29,8 @@ from .residual_postprocessor import ResidualPostprocessor
 from .ssd_postprocessor import SSDPostprocessor
 from .temp_scaling_postprocessor import TemperatureScalingPostprocessor
 from .vim_postprocessor import VIMPostprocessor
-from .cadet_postprocessor import CadetPostprocessor
+from .cadet_intra_postprocessor import CadetInPostprocessor
+from .cadet_out_postprocessor import CadetOutPostprocessor
 from .doctor_postprocessor import DoctorPostprocessor
 from .gmm_ens_postprocessor import GMMEnsemblePostprocessor
 
@@ -65,7 +66,8 @@ def get_postprocessor(config: Config):
         'dice': DICEPostprocessor,
         'ssd': SSDPostprocessor,
         'rd4ad': Rd4adPostprocessor,
-        'cadet': CadetPostprocessor,
+        'cadet_in': CadetInPostprocessor,
+        'cadet_out': CadetOutPostprocessor,
         'maxlogit': MaxLogitPostprocessor,
         'doctor': DoctorPostprocessor,
         'base': BasePostprocessor,

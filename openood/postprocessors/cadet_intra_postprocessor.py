@@ -10,7 +10,7 @@ import os
 from .base_postprocessor import BasePostprocessor
 
 
-class CadetPostprocessor(BasePostprocessor):
+class CadetInPostprocessor(BasePostprocessor):
     def __init__(self, config):
         self.config = config
         self.postprocessor_args = config.postprocessor.postprocessor_args
