@@ -6,9 +6,9 @@ The code to compute the intra similarity score is in `postprocessors/cadet_intra
 
 please cite our paper as:
 
-> @inproceedings{guille2023cadet,
->  title={CADet: Fully Self-Supervised Out-Of-Distribution Detection With Contrastive Learning},
->  author={Guille-Escuret, Charles and Rodriguez, Pau and Vazquez, David and Mitliagkas, Ioannis and Monteiro, Joao},
->  booktitle={Advances in Neural Information Processing Systems},
->  year={2023}
+> @inproceedings{guille2023cadet, <br>
+>  title={CADet: Fully Self-Supervised Out-Of-Distribution Detection With Contrastive Learning}, <br>
+>  author={Guille-Escuret, Charles and Rodriguez, Pau and Vazquez, David and Mitliagkas, Ioannis and Monteiro, Joao}, <br>
+>  booktitle={Advances in Neural Information Processing Systems}, <br>
+>  year={2023} <br>
 >}
